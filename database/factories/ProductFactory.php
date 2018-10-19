@@ -17,7 +17,6 @@ $factory->define(App\Models\Product::class, function (Faker $faker) {
         "https://lccdn.phphub.org/uploads/images/201806/01/5320/pa7DrV43Mw.jpg",
     ]);
 
-
     return [
         'title'        => $faker->word,
         'description'  => $faker->sentence,
